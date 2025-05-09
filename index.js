@@ -22,7 +22,7 @@ main();
 function showUserPosts(id){
      localStorage.setItem("id", id)
 console.log(window.location.href);
-    window.location.href = `${window.location.origin}/JS-JUMP/user.html`
+    window.location.href = `${window.location.origin}/JS-JUMP-POST/user.html`
    
 }
 
